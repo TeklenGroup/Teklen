@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  <title>Payment Screen</title>
+</head>
+<body>
+  <main>
+    <div class="screen">
+      <div class="select">
+        <p class="sel">Select Payment Method</p>
+        <div class="options">
+          <div class="option credit">
+            <img src="Images/Card1.png" alt="credit card" class="opt1">
+            <p class="cred">Credit Card</p>
+          </div>
+          <div class="option bankT">
+            <img src="Images/Bank Transfer.png" alt="bank icon" class="opt">
+            <p class="Transfer">Bank Transfer</p>
+          </div>
+          <div class="option paypal">
+            <img src="Images/Paypal.png" alt="paypal icon" class="opt">
+            <p class="pay">Paypal</p>
+          </div>
+        </div>
+        <div class="name">
+          <p class="noc">Name on Card</p>
+          <input type="text" class="inp noca">
+        </div>
+        <div class="cardNum">
+          <p class="cardn">Card Number</p>
+          <input type="text" class="inp cardnu" placeholder="0000  0000  0000  0000">
+          <img src="Images/Card2.png" alt="credit card" class="ca">
+        </div>
+        <div class="details">
+          <div class="tit month">
+            <p class="mon">Month</p>
+            <select class="gr" id="month">
+              <option value="">Select Month</option>
+              <!-- <option value="month"></option> -->
+            </select>
+          </div>
+          <div class="years">
+            <p class="tit yr">Year</p>
+            <select class="gr" id="year">
+              <option value="">Select Year</option>
+              <!-- <option value="year"></option> -->
+            </select>
+          </div>
+          <div class="tit cvvs">
+            <p class="cv">CVV</p>
+            <input type="text" class="gr cvv">
+            <img src="Images/CVV.png" alt="security - icon" class="que">
+          </div>
+        </div>
+      </div>
+
+      <div class="purchase">
+        <div class="purch">
+        <p class="pur">Purchase Summary</p>
+        <div class="info">
+          <p class="course">Web Development:</p>
+          <p class="from">From Zero to Web Hero - Start Coding <br>Today!</p>
+          <div class="time"> <!--to carry flex-->
+            <div class="fl duration">
+              <img src="Images/time duration.png" alt="clock" class="lo clock">
+              <p class="an hr">8hr 45mins</p>
+            </div>
+            <div class="fl lectures">
+              <img src="Images/6 Lectures.png" alt="video" class="lo video">
+              <p class="an lec">6 Lectures</p>
+            </div>
+          </div>
+          <div class="price"> <!--to carry flex-->
+            <div class="mon slash">
+              <p class="si new">$18.00</p>
+              <p class="old">$25.00</p>
+            </div>
+            <div class="mon rating">
+              <p class="si rate">4.5</p>
+              <img src="Images/rating stars.png" alt="rating stars" class="stars">
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        <div class="date">
+          <p class=" dat mond">Monday</p>
+          <p class="dat oct"> October 21, 2025 | 7:45AM</p>
+        </div>
+        <button class="payn">Pay Now</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

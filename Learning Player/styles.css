@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 17px 0;
+  padding: 0 70px;
+  align-items: center;
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.lefttop {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 53.74px;
+  width: 61.63px;
+  /* border: 1px solid #fff; */
+  border-radius: 50%;
+  background: #fff;
+}
+.teklen {
+  color: #8974ff;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.menu {
+  display: flex;
+}
+.menuList {
+  margin-right: 16px;
+}
+.menulistb{
+  color: #000;
+}
+.signupb{
+  color: #fff;
+}
+a:link{
+  color:none;
+}
+a{
+  text-decoration: none;
+}
+
+.middletopr {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 10px;
+  border-radius: 8px;
+}
+.search {
+  opacity: 10.5;
+}
+::placeholder {
+  color: #555555;
+}
+.searchBar {
+  width: 318px;
+  height: 25px;
+  margin-left: 8px;
+  border: none;
+  outline: none;
+}
+.user {
+  margin-left: 20px;
+}
+.user:hover {
+  cursor: pointer;
+  height: 2.2em;
+  width: 2.2em;
+}
+.notification:hover {
+  cursor: pointer;
+  height: 2.2em;
+  width: 2.2em;
+}
+
+.content {
+  padding: 0 80px;
+  display: grid;
+  grid-template-columns: 275px 900px;
+  column-gap: 30px;
+}
+.course {
+  border-right: 2px solid #555555;
+}
+.coco {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.colist {
+  padding: 0 60px 0 10px;
+}
+
+.lit{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  position: relative;
+}
+.quiz{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-bottom: 35px;
+}
+.icon{
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+}
+.sup{
+  position: relative;
+  font-size: 0.9em;
+}
+.time{
+  position: absolute;
+  top: 90%;
+  font-size: 0.7em;
+}
+.tickbox{
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+.qu{
+  margin: 0 110px 0 12px;
+}
+.design{
+  background: #ede7ff;
+  padding: 0 0 8px 3px;
+  border-radius: 4px;
+}
+
+
+.Learning{
+  margin: 30px 0 70px 0;
+}
+
+.learnplay {
+  width: 100%;
+  height: 400px;
+  /* margin: 30px 0; */
+}
+.learnplay:hover {
+  cursor: pointer;
+}
+.notes{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.note{
+  color: #8a75ff;
+}
+.queeze{
+  margin-left: 30px;
+}
+hr{
+  border: none;
+  height: 3px;
+  background-color: #d9d9d9;
+}
+.textarea{
+  border: 2px dashed #d9d9d9;
+  margin: 20px 0;
+  text-align: center;
+  padding: 30px 0;
+  border-radius: 22px;
+}
+.no{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.add{
+  font-size: 0.9em;
+  color: #555555;
+  margin-bottom: 40px;
+}
+.addno{
+  color: #fff;
+  background: #8a75ff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+.addno:hover{
+  cursor: pointer;
+  background: #585279;
+}
+.progress{
+  margin-top: 5px;
+}
+.cp{
+  font-size: 0.9em;
+  padding-left: 10px;
+}
+.cpbar {
+  width: 100%;
+}
+.com{
+  padding: 10px 0 0 10px;
+  font-size: 0.8em;
+  color: #555555;
+}

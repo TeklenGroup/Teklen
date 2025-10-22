@@ -1,0 +1,220 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+body{
+  background: #EDE7FF;
+}
+.screen{
+  margin: 60px auto;
+  width: 860px;
+  background: #fff;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 500px 280px;
+  column-gap: 20px;
+}
+.select{
+  border: 1px solid #d9d9d9;
+  padding: 10px 8px;
+}
+.sel{
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.options{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  /* width: auto; */
+}
+.option{
+  border: 1px solid #8A75FF;
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  width: 155px;
+}
+.option:hover{
+  cursor: pointer;
+}
+.opt1{
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+}
+.opt{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  /* color: #fff; */
+}
+.credit{
+  background: #8A75FF;
+  color: #fff;
+  padding: 28px 0 27px 0;
+}
+
+.noc{
+  font-size: 0.8em;
+}
+.noca{
+  padding-left: 10px;
+}
+.inp{
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  height: 2.3em;
+}
+.cardNum{
+  margin-top: 50px;
+}
+.cardn{
+  font-size: 0.8em;
+}
+.cardnu{
+  padding-left: 10px;
+  position: relative;
+}
+.ca{
+  /* background: red; */
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  left: 54%;
+  bottom: 34%;
+  color: #d9d9d9;
+}
+::placeholder{
+  font-size: 0.8em;
+  color: #d9d9d9;
+}
+.details{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin-top: 30px;
+}
+.tit{
+  font-size: 0.8em;
+}
+.cvv{
+  position: relative;
+}
+.que{
+  position: absolute;
+  left: 55%;
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+.que:hover{
+  cursor: pointer;
+}
+.gr{
+  border: 1px solid #d9d9d9;
+  padding: 2px 5px;
+  width: 140px;
+}
+.cvv{
+ padding-right: 170px;
+ padding-left: 10px;
+}
+
+
+
+.purch{
+  border: 1px solid #d9d9d9;
+  padding: 10px 8px;
+}
+.pur{
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.course{
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+.from{
+  font-size: 0.7em;
+}
+.time{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.fl{
+  display: flex;
+  align-items: center;
+}
+.lo{
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  color: #8A75FF;
+}
+.an{
+  font-size: 0.7em;
+  color: #555555;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.si{
+  margin-right: 5px;
+}
+.mon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.new{
+  color: #8A75FF;
+}
+.old{
+  text-decoration: line-through;
+}
+.stars{
+  height: 20px;
+}
+
+.date{
+  border-top: 1px solid #d9d9d9;
+  background: #EDE7FF;
+  text-align: center;
+  padding: 10px 0;
+}
+.dat{
+  font-size: 0.8em;
+}
+.mond{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.payn{
+  margin-top: 25px;
+  width: 100%;
+  padding: 7px 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #fff;
+  background: #8A75FF;
+  border: none;
+  border-radius: 5px;
+}
+.payn:hover{
+  cursor: pointer;
+  background: #585279;
+}
